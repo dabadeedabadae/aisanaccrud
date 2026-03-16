@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+
+# Env файлы с секретами
+.env
+.env.local
+
+# Adminer (опасно держать в репо)
+adminer.php
+
+# Загрузки пользователей
+uploads/*
+!uploads/.gitkeep
+
+# Yii runtime/cache
+protected/runtime/
+protected/cache/
+assets/
+.env
