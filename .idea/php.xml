@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/yii3/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/yii3/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/log-target-file" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/security" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/aliases" />
+      <path value="$PROJECT_DIR$/yii3/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/network-utilities" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/config" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/cache" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/yii-http" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/files" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/injector" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/router-fastroute" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/request-provider" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/error-handler" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/http" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/view" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/strings" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/router" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/psr-emitter" />
+      <path value="$PROJECT_DIR$/yii3/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/db-mysql" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/hydrator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/csrf" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/i18n" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/yii-runner-http" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/translator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/html" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/arrays" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/di" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/friendly-exception" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/var-dumper" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/event-dispatcher" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/middleware-dispatcher" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/yii-view-renderer" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/json" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/db" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/log" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/definitions" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/data-response" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/validator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/yii-event" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/input-http" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/cookies" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/yii-runner" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/hydrator-validator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/yiisoft/session" />
+      <path value="$PROJECT_DIR$/yii3/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/yii3/vendor/composer" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/yii3/vendor/alexkart/curl-builder" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/yii3/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/yii3/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/yii3/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/yii3/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/yii3/vendor/httpsoft/http-message" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/yii3/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

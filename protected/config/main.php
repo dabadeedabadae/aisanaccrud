@@ -1,0 +1,54 @@
+<?php
+
+return array(
+	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+	'name'=>'AI Sana Kozybayev University',
+	'defaultController'=>'aisana',
+	'theme'=>'new',
+	'language'=>'ru',
+	'sourceLanguage'=>'ru',
+	'preload'=>array('log'),
+	'import'=>array(
+		'application.models.*',
+		'application.components.*',
+	),
+	'modules'=>array(
+	),
+	'components'=>array(
+		'db'=>require(dirname(__FILE__).'/database.php'),
+		'urlManager'=>array(
+			'urlFormat'=>'path',
+			'showScriptName'=>true,
+			'rules'=>array(
+				'aisana/newsView/<slug:[\w\-]+>'=>'aisana/newsView',
+				'aisana/projectView/<id:\d+>'=>'aisana/projectView',
+				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			),
+		),
+		'errorHandler'=>array(
+			'errorAction'=>'aisana/index',
+		),
+		'log'=>array(
+			'class'=>'CLogRouter',
+			'routes'=>array(
+				array(
+					'class'=>'CFileLogRoute',
+					'levels'=>'error, warning',
+				),
+			),
+		),
+		'messages'=>array(
+			'class'=>'CPhpMessageSource',
+			'basePath'=>'protected/messages',
+			'forceTranslation'=>true,
+		),
+		'user'=>array(
+			'class'=>'CWebUser',
+			'allowAutoLogin'=>true,
+			'loginUrl'=>array('admin/login'),
+		),
+	),
+	'params'=>array(
+		'adminEmail'=>'mail@ku.edu.kz',
+	),
+);

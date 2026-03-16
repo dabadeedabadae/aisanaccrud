@@ -1,0 +1,370 @@
+2025/12/09 15:38:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#4 {main}
+REQUEST_URI=/index.php/favicon.ico
+HTTP_REFERER=http://localhost:8000/index.php?r=chatadmin/stats
+---
+2025/12/09 15:40:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(1604): CActiveRecord->getCommandBuilder()
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(57): CActiveRecord->count()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionStats()
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('stats')
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatAdmin/stats')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#22 {main}
+REQUEST_URI=/index.php/chatAdmin/stats
+---
+2025/12/09 15:42:58 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(672): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(1604): CActiveRecord->getCommandBuilder()
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(57): CActiveRecord->count()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionStats()
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('stats')
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatAdmin/stats')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#22 {main}
+REQUEST_URI=/index.php/chatAdmin/stats
+---
+2025/12/09 15:48:46 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:48:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatCategory))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(111): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionCategoryIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('categoryindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/categ...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/categoryIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:48:59 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:07 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:11 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:15 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:19 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(2390): CActiveRecord->getDbConnection()
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ChatAnswer))
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\protected\controllers\ChatadminController.php(203): CActiveRecord->__construct('search')
+#9 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\actions\CInlineAction.php(49): ChatadminController->actionAnswerIndex()
+#10 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('answerindex')
+#19 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chatadmin/answe...')
+#20 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#22 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#23 {main}
+REQUEST_URI=/index.php/chatadmin/answerIndex
+HTTP_REFERER=http://localhost:8000/chatadmin/stats
+---
+2025/12/09 15:49:28 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php:1135
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAjaxOnly(Object(CFilterChain))
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('widgetconfig')
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chat/widgetConf...')
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#9 {main}
+REQUEST_URI=/index.php/chat/widgetConfig
+HTTP_REFERER=http://localhost:8000/site/index
+---
+2025/12/09 15:49:32 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php:1135
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAjaxOnly(Object(CFilterChain))
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('widgetconfig')
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chat/widgetConf...')
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#9 {main}
+REQUEST_URI=/index.php/chat/widgetConfig
+HTTP_REFERER=http://localhost:8000/site/index
+---
+2025/12/09 15:49:34 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php:1135
+Stack trace:
+#0 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CInlineFilter.php(58): CController->filterAjaxOnly(Object(CFilterChain))
+#1 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(282): CController->run('send')
+#5 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\web\CWebApplication.php(141): CWebApplication->runController('chat/send')
+#6 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\index.php(20): CApplication->run()
+#8 C:\Users\posit\OneDrive\Рабочий стол\yii-1.1.31.34bac5\framework\cli\views\webapp\router.php(37): require('C:\\Users\\posit\\...')
+#9 {main}
+REQUEST_URI=/index.php/chat/send
+HTTP_REFERER=http://localhost:8000/site/index
+---
